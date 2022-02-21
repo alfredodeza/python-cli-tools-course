@@ -2,6 +2,8 @@
 
 In this course you'll go through all the basics to learn how to build Python command line tools. You'll go from the very basics (and fastest ways) to create them, to more involved with frameworks that can handle complex cases.
 
+The full course is available on the [O'Reilly platform](https://learning.oreilly.com/videos/python-command-line/50131VIDEOPAIML/).
+
 **Building a CLI is the foundation for automation in your daily work**
 
 By the end of the course you should feel confident in creating a tool, and the following:
