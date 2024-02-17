@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+name = "demo-jformat"
+version = "0.0.1"
+description = "Reformats files to stdout"
+author = "Alfredo Deza"
+author-email = "alfredo@deza.pe"
+license = "MIT"
+url = "https://github.com/alfredodeza/demo-jformat"
+
+[tool.setuptools.dependencies]
+python = ">=3.6"
+click = "*"
+colorama = "*"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[[tool.setuptools.entry-points]]
+console_scripts = ["jformat = jformat.main:main"]
